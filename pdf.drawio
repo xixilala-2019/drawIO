@@ -1,0 +1,36 @@
+<mxfile host="" modified="2020-06-16T14:36:56.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.46.0 Chrome/78.0.3904.130 Electron/7.3.1 Safari/537.36" etag="ebPHvR1DHovO290wiQZh" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="1704" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="pdf阅读器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="传递过去Uri" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5">
+                    <mxGeometry y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="导入页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="PDF展示页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;PDFFileManager&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;-add(PDFFile)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;-remove(PDFFile)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;-getData()&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;-saveData()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="240" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="PDFFile&lt;br&gt;-title&lt;br&gt;-input_time&lt;br&gt;-read_page_num&lt;br&gt;-total_page_num&lt;br&gt;-abs_file_path" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-160" y="240" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="PDF属性配置&lt;br&gt;-" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
